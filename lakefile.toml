@@ -5,8 +5,8 @@ defaultTargets = ["DynlibRepro"]
 [[require]]
 name = "batteries"
 scope = "leanprover-community"
-rev = "v4.28.0"
+rev = "v4.29.0-rc7"
 
 [[lean_lib]]
 name = "DynlibRepro"
-# precompileModules = true
+precompileModules = true
